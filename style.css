@@ -1,0 +1,105 @@
+
+
+
+.form {
+    border-radius: 10px;
+}
+
+/* Body flexbox column */
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0px;
+    background-color: #F2F1EF;
+    color: #413F3D;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    flex: 1;
+}
+
+main {
+    margin: 10px;
+}
+
+footer {
+    background-color: #B1A6A4;
+    color: #413F3D;
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+/* NAVBAR */
+
+.navbar-main {
+    display: flex;
+    justify-content:space-around;
+    padding: 10px;
+    background-color: #F2F1EF;
+    color: #413F3D;
+    /*border: solid 1px blue;*/
+}
+
+.navbar-section-left {
+    display: flex;
+    flex: 1;
+    justify-content: flex-start;
+    /*border: solid 1px;*/
+}
+
+.navbar-section-right {
+    display: flex;
+    flex: 3;
+    justify-content: flex-end;
+    align-items: center;
+    /*border: solid 1px;*/
+}
+
+.navbar-section-right a {
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+/* Easy footer - Uncomment border to see flexbox */
+
+.footer-main {
+
+    
+}
+
+.footer-section {
+    padding-left: 20;
+}
+
+/* Main section flexbox */
+
+.main-flex {
+    display: flex;
+    flex: 3;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 50px;
+}
+
+.section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.typography-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.card {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    background-color: #F2F1EF
+    padding: 0px;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
